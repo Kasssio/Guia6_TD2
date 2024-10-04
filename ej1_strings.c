@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 int len(char* s) {
-
-    // COMPLETAR
-
-    return 0;
+    int length = 0;
+    while (s[length] != "\0"){
+        length++;
+    }
+    return length;
 }
 
 char* copy(char* s) {
@@ -60,6 +61,7 @@ int main() {
     free(concat);
 
     // */
-
+    char ramon[] = "Ramon";
+    printf("%i",len(ramon));
     return 0;
 }
