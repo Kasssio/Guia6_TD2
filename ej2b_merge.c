@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int* merge(int* A, int sizeA, int* B, int sizeB) {
+float* merge(float* A, int sizeA, float* B, int sizeB) {
     int sizeC = sizeA + sizeB;
-    int aux;
-    int* C = (int*)malloc((sizeA + sizeB) * sizeof(int));
+    float aux;
+    float* C = (float*)malloc((sizeA + sizeB) * sizeof(float));
     for(int i = 0; i < sizeA; i++){
         C[i] = A[i];
     }
@@ -31,14 +31,14 @@ int main() {
     
 
     // */
-    int a[5] = {4,5,6,7,8};
-    int b[4] = {1,2,3,9};
+    float a[5] = {4,5,6,7,8};
+    float b[4] = {1,2,3,9};
 
-    int* result = merge(a, 5, b, 4);
+    float* result = merge(a, 5, b, 4);
 
     printf("Result:");
     for(int i=0; i<9; i++) {
-        printf(" %i", result[i]);
+        printf("%f", result[i]);
     }
     printf("\n");
 
