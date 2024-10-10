@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/luquiest/Documents/TD/TD2-c-y-logisim/Guia6_TD2/ej3_array_strings'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _len, symObjAddr: 0x0, symBinAddr: 0x100003970, symSize: 0x48 }
+  - { offsetInCU: 0x46, offset: 0x46, size: 0x8, addend: 0x0, symName: _len, symObjAddr: 0x0, symBinAddr: 0x100003970, symSize: 0x48 }
+  - { offsetInCU: 0x7C, offset: 0x7C, size: 0x8, addend: 0x0, symName: _longest, symObjAddr: 0x48, symBinAddr: 0x1000039B8, symSize: 0xE8 }
+  - { offsetInCU: 0xF8, offset: 0xF8, size: 0x8, addend: 0x0, symName: _superConcatenate, symObjAddr: 0x130, symBinAddr: 0x100003AA0, symSize: 0x138 }
+  - { offsetInCU: 0x1C8, offset: 0x1C8, size: 0x8, addend: 0x0, symName: _superConcatenateWithSep, symObjAddr: 0x268, symBinAddr: 0x100003BD8, symSize: 0x1E0 }
+  - { offsetInCU: 0x2C2, offset: 0x2C2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x448, symBinAddr: 0x100003DB8, symSize: 0x100 }
+...
